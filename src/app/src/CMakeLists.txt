@@ -1,4 +1,4 @@
-project(falcon_app)
+project(falcon-app)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)

@@ -1,4 +1,4 @@
-project(falcon_module)
+project(falcon-module)
 
 set(SOURCE_FILES falcon_module.c)
 set(HEADER_FILES falcon_module.h)

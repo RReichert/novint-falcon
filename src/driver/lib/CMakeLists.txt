@@ -1,4 +1,4 @@
-project(falcon_api)
+project(falcon-api)
 
 set(SOURCE_FILES falcon_api.cpp)
 

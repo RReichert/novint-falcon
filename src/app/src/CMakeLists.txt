@@ -1,4 +1,4 @@
-project(novint_falcon)
+project(falcon_app)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -10,9 +10,9 @@ find_package(Qt5Core REQUIRED)
 
 set(SOURCE_FILES falcon.cpp)
 
-add_executable(falcon ${SOURCE_FILES})
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
-target_link_libraries(falcon ${Boost_LIBRARIES})
-target_include_directories(falcon PUBLIC ${Boost_INCLUDE_DIR})
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
+target_include_directories(${PROJECT_NAME} PUBLIC ${Boost_INCLUDE_DIR})
 
-target_link_libraries(falcon Qt5::Core)
+target_link_libraries(${PROJECT_NAME} Qt5::Core)

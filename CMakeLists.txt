@@ -8,4 +8,6 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS "-Wall")
 
+include(cmake/prefix_path.cmake)
+
 add_subdirectory(src)
